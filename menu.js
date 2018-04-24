@@ -57,3 +57,8 @@ const customer = object.create(null, {
         }
     }
 })
+
+customer.purchaseItem("Frappe McFrapperson")
+server.ringUpOrder("Frappe McFrapperson")
+customer.payForOrder("Cash")
+server.deliverOrder("Frappe McFrapperson")
